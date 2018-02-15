@@ -1,0 +1,61 @@
+#header {
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+    height: 100px;
+    width: 98.7%;
+    margin-top: -20px;
+    background-color: purple;
+    margin-bottom: 10px;
+}
+
+.left {
+    position: relative;
+    border-radius: 5px;
+    width: 5%;
+    height: 350px;
+    background-color: #ff69b4;
+    margin-top: 90px;
+    float: left;
+}
+
+.right {
+    position: relative;
+    background-color: yellow;
+    width: 91.3%;
+    height: 350px;
+    float: right;
+    margin-top: 90px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#footer {
+    border-radius: 5px;
+    height: 100px;
+    background-color: purple;
+    clear: both;
+}
+
+#name {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    float: left;
+}
+
+#email {
+    padding-right: 20px;
+    padding-top: 20px;
+    float: right;
+    color: white;
+}
+
+p {
+    margin-left: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+}
