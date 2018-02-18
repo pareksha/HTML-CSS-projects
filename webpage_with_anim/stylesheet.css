@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: brown;
+}
+
+header {
+  color: white;
+  text-align: center;
+  margin-top: -40px;
+  font-size: 1.5em;
+  position: relative;
+  animation-name: move-down;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-down {
+  0% {top: 0px; }
+  100% {top: 250px; }
+}
+
+section {
+  height: 500px;
+  margin-top: 300px;
+  color: white;
+  text-align: center;
+}
+
+.dummy-text {
+  animation-name: come-from-left;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes come-from-left {
+  0% {margin-left: -10000px;}
+  100% {margin-left: 0px;}
+}
+
+.btn {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 20px 20px 20px 20px;
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  transition-property: transform;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+
+@keyframes show {
+  0% {opacity: 0; }
+  100% {opacity: 1; }
+}
+
+.btn:hover {
+  transform: rotateY(180deg);
+}

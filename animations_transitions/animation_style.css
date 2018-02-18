@@ -1,0 +1,21 @@
+body {
+  background-color: #000;
+}
+
+div {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  animation-name: movement;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movement {
+  0% {background-color: white; left: 0px; top: 0px ;border-radius: 0 0 0 0;}
+  25% {background-color: blue; left: 300px; top: 0px; border-radius: 50% 0 0 0;}
+  50% {background-color: red; left: 300px; top: 300px; border-radius: 50% 50% 0 0; }
+  75% {background-color: purple; left: 0px; top: 300px; border-radius: 50% 50% 50% 0;}
+  100% {background-color: green; left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;}
+}

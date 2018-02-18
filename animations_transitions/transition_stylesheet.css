@@ -1,0 +1,20 @@
+body {
+  background-color: #000;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  transition-property: background-color, border-radius, transform; /* Can specify all */
+  transition-duration: 3s;
+  margin: auto;
+  position: relative;
+  margin-top: 30%;
+}
+
+div:hover {
+  background-color: red;
+  border-radius: 50%;
+  transform: rotateY(180deg);
+}
