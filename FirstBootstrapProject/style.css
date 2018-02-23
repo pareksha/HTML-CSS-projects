@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bgimg {
+  background-image: url(https://www.w3schools.com/w3css/img_lights.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  min-height: 850px;
+  max-height: 1200px;
+  padding-top: 280px;
+}
+
+.white-text {
+  color: white;
+}
+
+.image-hw {
+  height: 150px;
+  width: 150px;
+}
+
+.btn-warning {
+  margin-top: 30px;
+  background-color: #fed136;
+  font-size: 1.2em;
+  padding: 15px 25px 15px 25px;
+  color: white;
+  border-color: #fed136;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.btn-warning:hover {
+  background-color: #ffc107;
+  border-color: #fed107 !important;
+  outline: 0;
+}
+
+.btn-warning:active, .btn-warning:focus {
+  background-color: #fed136 !important;
+  border-color: #fed136 !important;
+  outline: 0;
+  box-shadow: 0 0 0 .4rem rgba(254,209,55,.5);
+}
+
+.heading {
+  margin: 120px auto 80px auto;
+}
+
+.cite-color {
+  color: #808080;
+}
+
+.main {
+  background-color: #f8f9fa;
+  padding-top: 35px;
+  overflow: hidden;
+  padding-bottom: 150px;
+}
+
+.grid-layout {
+  max-width: 1065px;
+}
+
+.grid-item {
+  background-color: white;
+  max-width: 320px;
+  padding-bottom: 15px;
+}
+
+.element {
+  width: 350px;
+  margin: 0 2.5px 30px 2.5px;
+
+}
+
+.box {
+  overflow: hidden;
+  max-height: 200px;
+  margin: auto;
+}
+
+.image {
+  max-width: 320px;
+  max-height: 300px;
+}
+
+.plus-dim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  width: 320px !important;
+  height: 200px;
+  font-size: 60px;
+  padding-top: 60px;
+  background-color: rgba(254,209,54,0.87);
+  color: rgba(255,255,255,1);
+  z-index: 1;
+  width: 280px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.plus-dim:hover {
+  opacity: 1;
+}
+
+.app-des {
+  max-width: 500px;
+  margin: auto;
+}
+
+
+@media (max-width: 1199px) {
+  .grid-layout {
+    max-width: 710px;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-layout {
+    max-width: 355.5px;
+  }
+}
