@@ -117,6 +117,45 @@ html {
   margin: auto;
 }
 
+.v-line {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 5px;
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(192, 192, 192, 1);
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-image {
+  height: 150px;
+  width: 200px;
+}
+
+.timeline-title {
+  position: relative;
+  width: 37%;
+  display: inline-block;
+  color: black;
+  margin-bottom: 15%;
+}
+
+.content-right {
+  margin-left: 63%;
+}
+
 
 @media (max-width: 1199px) {
   .grid-layout {
@@ -127,5 +166,22 @@ html {
 @media (max-width: 767px) {
   .grid-layout {
     max-width: 355.5px;
+  }
+  .circle {
+    height: 100px;
+    width: 100px;
+    left: 20%;
+  }
+  .timeline-image {
+    height: 100px;
+    width: 150px;
+  }
+  .timeline-title {
+    width: 55%;
+    text-align: left;
+    margin-left: 35%;
+  }
+  .v-line {
+    left: 20%;
   }
 }
